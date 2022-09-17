@@ -6,7 +6,7 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
-    var tvText: TextView? = null
+    var tvText: TextView? = null   //переменная для вывода результата на экран смартфона
 
 
 
@@ -17,20 +17,20 @@ class MainActivity : AppCompatActivity() {
 
 
 
-            var alphaList = mutableListOf<Char>()
-            var simvols = 'A'..'Z'
+            var alphaList = mutableListOf<Char>()   //создал коллекцию и переменную к ней
+            var simvols = 'A'..'Z'                  // переменная с диапазоном
 
-            for(tipe in simvols){
+            for(tipe in simvols){                   //цикл добавления значений в коллекцию
                 alphaList.add(tipe)
             }
-            print(alphaList)
+            print(alphaList)  /проверка результата содержимого коллекции
 
 
 
 
 
         tvText = findViewById(R.id.TvText)
-        tvText?.setText(alphaList.toString())
+        tvText?.setText(alphaList.toString())      //вывод содержимого коллекции на экран смартфона
 
 
     }
