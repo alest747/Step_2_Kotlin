@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             for(tipe in simvols){                   //цикл добавления значений в коллекцию
                 alphaList.add(tipe)
             }
-            print(alphaList)                         //проверка результата содержимого коллекции
+            println(alphaList)                         //проверка результата содержимого коллекции
 
 
 
