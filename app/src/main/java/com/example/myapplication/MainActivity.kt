@@ -21,10 +21,8 @@ class MainActivity : AppCompatActivity() {
 
             for(tipe in simvols){
                 alphaList.add(tipe)
-                when(tipe){
-                    in 'A'..'Z' -> print(" $tipe")
+                print(" $tipe")
                 }
-            }
 
 
 
