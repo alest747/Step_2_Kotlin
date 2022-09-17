@@ -16,13 +16,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
+
             var alphaList = mutableListOf<Char>()
             var simvols = 'A'..'Z'
 
             for(tipe in simvols){
                 alphaList.add(tipe)
-                print(" $tipe")
-                }
+            }
+            print(alphaList)
+
 
 
 
